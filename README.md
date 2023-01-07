@@ -1,17 +1,20 @@
 # Calculadora IMC
+<p align="center">
 <img width="100%" src=".github/screens.png">
+</p>
+
 
 ### Comandos utilizados:
 
 	$ expo init imc-app
 	$ cd imc-app
 	$ code .
-	$ yarn start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+	$ npx yarn start # you can open iOS, Android, or web from here, or run them directly with the commands below.
 
 ---
-## Tecnologias
+O Video da aula se encontra <a href="https://www.youtube.com/watch?v=BNhQIDYeoRc" target="_blank"> Aqui </a>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+# Tecnologias utilizadas
 
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
