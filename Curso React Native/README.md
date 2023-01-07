@@ -52,7 +52,5 @@ As Videos aulas se encontra neste <a href="https://www.youtube.com/playlist?list
 
 <div style="display: inline_block"><br>
   <img align="center" alt="React" height="40" width="40" src="https://cdn.iconscout.com/icon/free/png-64/react-1-282599.png">
-  <img align="center" alt="JS" height="40" width="40" src="https://cdn.iconscout.com/icon/free/png-64/javascript-3628858-3029998.png">
   <img align="center" alt="Expo" height="40" width="40" src="https://github.com/expo/expo/raw/main/.github/resources/banner.png">
-  <img align="center" alt="SDC" height="40" width="40" src="https://cdn-images-1.medium.com/max/1200/1*y1fCsOVCYCTi1B9Q_0BOYg.png">
 </div>
