@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "imc-app",
+    "name": "Calculadora IMC",
     "slug": "imc-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/fruit.png",
+      "resizeMode": "cover", 
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -18,9 +18,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.imc.app",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.imc.app",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"

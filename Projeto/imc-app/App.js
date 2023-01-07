@@ -62,15 +62,20 @@ export default function App() {
         );
         if (imc > 32.3  )
         return Alert.alert(
-          "Obeso!",
-          `Seu IMC é de ${imc.toFixed(2)} esta Obeso`
+          "Obesa!",
+          `Seu IMC é de ${imc.toFixed(2)} esta Obesa`
         );
 
     }
   };
-  //31:30 https://www.youtube.com/watch?v=BNhQIDYeoRc
+  
   return (
-    <View style={styles.container}>
+    <ImageBackground
+      source={require("./assets/bg.png")}
+      resizeMode="cover"
+      style={styles.container}
+    >  
+      <StatusBar style="dark"/>
       <View style={styles.inputGroupRow }>
 
         <Text>Feminino</Text>
@@ -81,7 +86,6 @@ export default function App() {
           onValueChange={toggleSwitch}
           value={genero}
         />
-
         <Text>Masculino</Text>
       </View>
 
@@ -107,16 +111,13 @@ export default function App() {
       >
         <Text style={styles.buttontext}>Calcular</Text>
       </TouchableOpacity>
-
-      <StatusBar style="auto" />
-    </View>
+    </ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#c9d',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -151,7 +152,7 @@ const styles = StyleSheet.create({
   },
 
   buttontext: {
-    fontFamily: "Poppins_600SemiBold",
+    //fontFamily: "Poppins_600SemiBold",
     color: "#FFFF",
     fontSize: 18,
   },
